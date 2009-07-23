@@ -1,0 +1,15 @@
+= ActiveResourcePatches
+
+A set of patches for ActiveResource that haven't made it into Rails (yet).
+Any update of Rails means that this gem needs to be modified to verify it still needs the patches.
+
+
+== Recent Changes
+
+=== 0.0.1
+* Added patch to ActiveResource::Connection#head that prevents failure of ActiveResource::Base.exists? requests. More info, see: http://github.com/FiXato/rails/commit/36bb1a604a74eaff6c01fd1f5c3accb16a512124
+
+== Plans
+
+
+Copyright (c) 2009 Filip H.F. "FiXato" Slagter, released under the MIT license
