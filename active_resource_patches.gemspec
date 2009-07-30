@@ -25,6 +25,6 @@ Gem::Specification.new do |s|
   s.rdoc_options << '--inline-source' << '--line-numbers' << '--main' << 'README.rdoc'
   
   # Requirements
-  s.add_dependency 'rails', '= 2.3.3'
+  s.add_dependency 'activeresource', '= 2.3.3'
   s.required_ruby_version = ">= 1.8.0"
 end
