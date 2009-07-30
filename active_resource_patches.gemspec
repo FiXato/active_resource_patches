@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.name         = 'active_resource_patches'
   s.summary      = "ActiveResourcePatches contains a set of patches that haven't made it into Rails (yet)."
   s.description  = "ActiveResourcePatches contains a set of patches that haven't made it into Rails (yet)."
-  s.version      = '0.0.1'
-  s.date         = '2009-07-23'
+  s.version      = '0.0.2'
+  s.date         = '2009-07-30'
   s.platform     = Gem::Platform::RUBY
   s.authors      = ["Filip H.F. Slagter"]
   s.email        = "fixato@gmail.com"
